@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+/*  background-image: url('images/homepage.jpg'); /* Replace with your image path */
+   /* background-size: cover; /* Ensures the image covers the entire page */
+    /*background-repeat: no-repeat; /* Prevents the image from repeating */
+    /*background-position: center; /* Centers the image on the page */
+    /*height: 100vh; /* Ensures the background spans the viewport height */
+    /*margin: 0; /* Removes default body margin */
+    
+}
+
+/* Global CSS */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 60px;
+}
+h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.sec-space {
+  padding: 4rem 0;
+}
+.extra-space {
+  padding-top: 8rem;
+}
+.obj-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+        width: 200px; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px; /* Space at the top */
+        margin-left: 20px; /* Space on the left */
+
+    }
+    
+header{
+    background-color:#6CB8DE;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+#menu li a{
+    color: #ffffff;
+    text-decoration: none;
+
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 1.1 rem;
+    font-weight: 500;
+}
+#menu li a:hover {
+    color: #000000; /* Change text color on hover */
+   /* background-color: #ffffff;  Add a background color on hover */
+    padding: 5px 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Rounded corners for the hover effect */
+}
+
+#bar{
+    color: #ffffff;
+    display: none;
+
+}
+@media(max-width:699px) {
+    #menu{
+        display: block;
+        width: 280px;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        right: -100%;
+        padding: 30px 0;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        opacity: 0;
+        transition: all 0.3s ease;
+
+    }
+
+    #menu.active{
+        right: 10px;
+        opacity: 1;
+
+    }
+    #menu li{
+        padding: 3 rem;
+    }
+    #menu li a{
+        color: black;
+    }
+    #bar{
+        display: block;
+        font-size: 1.7 rem;
+        cursor: pointer;
+       
+    }
+}
+
+/*#submenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 45px #00000020;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s;
+    list-style: none;
+}
+
+#submenu li a:hover{
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+}
+
+#submenu li{
+    margin: 0;
+    width: 100%;
+}*/
