@@ -36,7 +36,7 @@
     right: 0;
     z-index: 1000;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: transparent;
+    background-color: #00489A;
     padding: 20px 40px;
     box-shadow: none;
 }
