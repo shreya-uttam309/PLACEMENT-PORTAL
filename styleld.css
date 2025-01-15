@@ -1,6 +1,6 @@
 
 main {
-    padding: 40px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ h2 {
     margin-top: 20px;
 }
 body {
-    margin: 0;
+    margin: 100;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: #caf0f8; /* Light background */
