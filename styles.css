@@ -201,7 +201,7 @@ body {
 }
 .notices {
     width: 60%;
-    padding: 20px;
+    padding: 20px 30px 20px 20px;
 }
 
 .notice-block {
@@ -239,7 +239,7 @@ body {
     width: 35%;
     text-align: center;
     background: #90e0ef; /* Light sky blue */
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
