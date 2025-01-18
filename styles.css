@@ -45,7 +45,7 @@ body {
     right: 0;
     z-index: 1000;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: transparent;
+    background-color: #00489A;
     padding: 20px 40px;
     box-shadow: none;
 }
@@ -200,7 +200,7 @@ body {
 
 .notices {
     width: 60%;
-    padding: 20px;
+    padding: 20px 30px 20px 20px;
 }
 
 .notice-block {
@@ -237,8 +237,13 @@ body {
 .director-message {
     width: 35%;
     text-align: center;
+<<<<<<< HEAD
     background: #b9e5e8; /* Soft teal */
     padding: 20px;
+=======
+    background: #90e0ef; /* Light sky blue */
+    padding: 30px;
+>>>>>>> 2e7bb43681f89566cabf1301e5d9929c131c90fe
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
